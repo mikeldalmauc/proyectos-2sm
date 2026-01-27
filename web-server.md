@@ -13,6 +13,7 @@
   - [3. 📊 Rúbrica de Evaluación (Enfoque Rendimiento)](#3--rúbrica-de-evaluación-enfoque-rendimiento)
   - [4. 💡 El "Factor Pro" (Mejoras Diferenciales)](#4--el-factor-pro-mejoras-diferenciales)
     - [¿Por qué este proyecto?](#por-qué-este-proyecto)
+  - [📅 Información de Entrega y Modalidad](#-información-de-entrega-y-modalidad)
 
 ## 1. 📋 Ficha Técnica del Proyecto
 
@@ -121,3 +122,17 @@ Para obtener la máxima calificación y diferenciar el proyecto de una instalaci
 ### ¿Por qué este proyecto?
 
 Este proyecto cubre competencias críticas de SysAdmin (Linux, Nginx, Bash) y de Desarrollador Web (CMS, Optimización, BD). Es perfecto para perfiles híbridos que suelen buscar las empresas de marketing digital y hosting.
+
+---
+
+## 📅 Información de Entrega y Modalidad
+
+**Formato de entrega:** Los alumnos han de hacer una Exposición, donde han de grabarse a ellos mismos junto con la pantalla de su ordenador donde expongan el trabajo realizado durante el proyecto, máximo 10 minutos, preferiblemente menos.
+
+**Fecha de entrega:** Mayo 29
+
+**Modalidad:** Individual.
+
+Los proyectos se presentarán la segunda semana de febrero y los alumnos pueden empezar a trabajar desde entonces una vez elegido los que van a realizar.
+
+Es posible que los alumnos realicen su propia propuesta de proyecto pero ha de ser aprobada por el profesor antes de comenzar.

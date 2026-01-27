@@ -21,6 +21,7 @@
   - [🔗 4. Anexos Técnicos y Mejoras](#-4-anexos-técnicos-y-mejoras)
     - [Diagrama de Red Simplificado](#diagrama-de-red-simplificado)
     - [Posibles Mejoras Futuras](#posibles-mejoras-futuras)
+  - [📅 Información de Entrega y Modalidad](#-información-de-entrega-y-modalidad)
 
 **Proyecto:** "Implantación de un Sistema de Gestión de Incidencias para el Aula Taller de Informática" 
 
@@ -226,3 +227,17 @@ Se simulan incidencias reales para verificar el flujo:
 > * **Documentad TODO:** Cada error y solución cuenta.
 > * **Backups:** Haced copias de seguridad antes de cambios importantes.
 > * **Ensayo:** Practicad la presentación y anticipad preguntas difíciles.
+
+---
+
+## 📅 Información de Entrega y Modalidad
+
+**Formato de entrega:** Los alumnos han de hacer una Exposición, donde han de grabarse a ellos mismos junto con la pantalla de su ordenador donde expongan el trabajo realizado durante el proyecto, máximo 10 minutos, preferiblemente menos.
+
+**Fecha de entrega:** Mayo 29
+
+**Modalidad:** Individual.
+
+Los proyectos se presentarán la segunda semana de febrero y los alumnos pueden empezar a trabajar desde entonces una vez elegido los que van a realizar.
+
+Es posible que los alumnos realicen su propia propuesta de proyecto pero ha de ser aprobada por el profesor antes de comenzar.

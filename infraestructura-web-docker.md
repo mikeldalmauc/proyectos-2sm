@@ -11,6 +11,7 @@
     - [📅 SEMANA 4: Documentación y Defensa (8 horas)](#-semana-4-documentación-y-defensa-8-horas)
   - [3. 📊 Rúbrica de Evaluación (Enfoque DevOps)](#3--rúbrica-de-evaluación-enfoque-devops)
   - [4. 💡 Recursos y Snippets para los Alumnos](#4--recursos-y-snippets-para-los-alumnos)
+  - [📅 Información de Entrega y Modalidad](#-información-de-entrega-y-modalidad)
 
 
 ## 1. 📋 Ficha Técnica del Proyecto
@@ -129,5 +130,18 @@ jobs:
           cd /opt/mi-proyecto-web
           git pull origin main
           docker compose up -d --build
+```
+
+## 📅 Información de Entrega y Modalidad
+
+**Formato de entrega:** Los alumnos han de hacer una Exposición, donde han de grabarse a ellos mismos junto con la pantalla de su ordenador donde expongan el trabajo realizado durante el proyecto, máximo 10 minutos, preferiblemente menos.
+
+**Fecha de entrega:** Mayo 29
+
+**Modalidad:** Individual.
+
+Los proyectos se presentarán la segunda semana de febrero y los alumnos pueden empezar a trabajar desde entonces una vez elegido los que van a realizar.
+
+Es posible que los alumnos realicen su propia propuesta de proyecto pero ha de ser aprobada por el profesor antes de comenzar.
 
 ```

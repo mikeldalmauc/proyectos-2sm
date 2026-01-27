@@ -12,6 +12,7 @@
   - [3. 📊 Rúbrica de Evaluación (Con Backup Bloqueante)](#3--rúbrica-de-evaluación-con-backup-bloqueante)
   - [4. 💡 Recursos y Comandos Clave para el Equipo](#4--recursos-y-comandos-clave-para-el-equipo)
   - [4. 💡 Elementos Diferenciadores (Para nota extra)](#4--elementos-diferenciadores-para-nota-extra)
+  - [📅 Información de Entrega y Modalidad](#-información-de-entrega-y-modalidad)
 
 ## 1. 📋 Ficha Técnica del Proyecto
 
@@ -157,3 +158,17 @@ Si el equipo quiere asegurar el **10 (Avanzado)**, se sugiere implementar uno de
 
 1. **Integración Ofimática:** Instalar *Nextcloud Office* o *Collabora Online* para editar documentos tipo Word/Excel directamente en el navegador.
 2. **Backup Externo:** Configurar un script que haga una copia de seguridad automática de la base de datos a un segundo disco duro o unidad USB a una hora programada.
+
+---
+
+## 📅 Información de Entrega y Modalidad
+
+**Formato de entrega:** Los alumnos han de hacer una Exposición, donde han de grabarse a ellos mismos junto con la pantalla de su ordenador donde expongan el trabajo realizado durante el proyecto, máximo 10 minutos, preferiblemente menos.
+
+**Fecha de entrega:** Mayo 29
+
+**Modalidad:** Individual.
+
+Los proyectos se presentarán la segunda semana de febrero y los alumnos pueden empezar a trabajar desde entonces una vez elegido los que van a realizar.
+
+Es posible que los alumnos realicen su propia propuesta de proyecto pero ha de ser aprobada por el profesor antes de comenzar.
