@@ -1,14 +1,15 @@
 # 📂 PROYECTO INTERMODULAR: Nube Privada Corporativa (Nextcloud)
+
 ![alt text](images/nextclud.png)
 
 - [📂 PROYECTO INTERMODULAR: Nube Privada Corporativa (Nextcloud)](#-proyecto-intermodular-nube-privada-corporativa-nextcloud)
   - [1. 📋 Ficha Técnica del Proyecto](#1--ficha-técnica-del-proyecto)
   - [2. 🗓️ Cronograma Detallado (50 Horas)](#2-️-cronograma-detallado-50-horas)
-    - [📅 SEMANA 1: Planificación y Diseño (10 horas)](#-semana-1-planificación-y-diseño-10-horas)
-    - [📅 SEMANA 2: Ejecución Técnica (20 horas)](#-semana-2-ejecución-técnica-20-horas)
-    - [📅 SEMANA 3: Pruebas y Documentación (12 horas)](#-semana-3-pruebas-y-documentación-12-horas)
-    - [📅 SEMANA 4: Defensa y Evaluación (8 horas)](#-semana-4-defensa-y-evaluación-8-horas)
-  - [3. 📊 Rúbrica de Evaluación del Proyecto](#3--rúbrica-de-evaluación-del-proyecto)
+    - [📅 SEMANA 1: Organización y análisis (10 horas)](#-semana-1-organización-y-análisis-10-horas)
+    - [📅 SEMANA 2: Instalación y puesta en marcha (20 horas)](#-semana-2-instalación-y-puesta-en-marcha-20-horas)
+    - [📅 SEMANA 3: Pruebas y mejoras (12 horas)](#-semana-3-pruebas-y-mejoras-12-horas)
+    - [📅 SEMANA 4: Documentación y defensa (8 horas)](#-semana-4-documentación-y-defensa-8-horas)
+  - [3. 📊 Rúbrica de Evaluación](#3--rúbrica-de-evaluación)
   - [4. 💡 Elementos Diferenciadores (Para nota extra)](#4--elementos-diferenciadores-para-nota-extra)
   - [📅 Información de Entrega y Modalidad](#-información-de-entrega-y-modalidad)
 
@@ -16,92 +17,65 @@
 
 | Aspecto | Detalles |
 | --- | --- |
-| **Título** | Despliegue de Sistema de Almacenamiento y Colaboración en Nube Privada |
+| **Título** | Sistema de almacenamiento y compartición de archivos en nube privada |
 | **Duración** | 50 horas |
-| **Equipo** | 3 alumnos (Roles: Administrador de Sistemas, Administrador de Red, Soporte/Seguridad) |
-| **Módulos integrados** | Sistemas Operativos, Redes Locales, Seguridad Informática |
-| **Software principal** | **Nextcloud** (Open Source), Ubuntu Server, Apache/Nginx, MariaDB |
-| **Hardware requerido** | 1 Servidor (físico o virtual), 2 equipos cliente (Windows/Linux), switch |
-| **Cliente ficticio** | "Estudio de Arquitectura y Diseño" (necesitan compartir archivos grandes de forma segura) |
+| **Equipo** | 3 alumnos |
+| **Módulos integrados** | Sistemas Operativos, Redes Locales, Seguridad |
+| **Software principal** | **Nextcloud** |
+| **Hardware requerido** | 1 servidor, 2 equipos cliente, red local |
+| **Cliente ficticio** | Estudio pequeño que necesita compartir archivos de forma segura |
 
 ---
 
 ## 2. 🗓️ Cronograma Detallado (50 Horas)
 
-### 📅 SEMANA 1: Planificación y Diseño (10 horas)
+### 📅 SEMANA 1: Organización y análisis (10 horas)
 
-**Sesión 1-3: Definición y Roles**
+* Analizar cómo trabaja el cliente y qué archivos necesita compartir.
+* Explicar el objetivo del proyecto y repartir tareas entre los miembros.
+* Diseñar la estructura de usuarios, carpetas y permisos.
+* Preparar el esquema de la presentación final.
 
-* **Análisis:** El cliente usa métodos inseguros (WeTransfer gratuito, USBs) para mover planos CAD confidenciales.
-* **Solución:** Servidor propio con control total de datos y usuarios.
-* **Reparto de tareas:**
-* *Alumno 1 (SysAdmin):* Prepara el servidor (Ubuntu) y la pila LAMP.
-* *Alumno 2 (Redes):* Configura DNS, IP estática y acceso externo (Simulado o real vía No-IP).
-* *Alumno 3 (Seguridad):* Diseña la política de usuarios (Arquitectos vs Becarios) y copias de seguridad.
+### 📅 SEMANA 2: Instalación y puesta en marcha (20 horas)
 
+* Preparar el servidor con los servicios necesarios para Nextcloud.
+* Instalar la plataforma y acceder desde un navegador.
+* Crear usuarios de prueba y varias carpetas compartidas.
+* Comprobar que los equipos cliente pueden entrar y usar la nube.
 
+### 📅 SEMANA 3: Pruebas y mejoras (12 horas)
 
----
+* Subir, descargar y compartir archivos entre varios usuarios.
+* Probar un enlace público con contraseña.
+* Realizar una copia de seguridad sencilla de la instalación.
+* Mejorar la organización visual y revisar permisos básicos.
 
-### 📅 SEMANA 2: Ejecución Técnica (20 horas)
+### 📅 SEMANA 4: Documentación y defensa (8 horas)
 
-**Sesión 4-6: Instalación del Núcleo**
-
-* Instalación de dependencias críticas en Linux (`php-gd`, `php-mysql`, `mariadb-server`).
-* Despliegue de Nextcloud y conexión con la base de datos.
-* **Reto técnico:** Configurar el archivo `php.ini` para permitir subidas de archivos mayores a 2GB (necesario para los planos del "cliente").
-
-**Sesión 7-8: Seguridad y Optimización**
-
-* Activación de **HTTPS** (certificado autofirmado o Let's Encrypt).
-* Configuración de la caché de memoria (Redis/APCu) para que la interfaz web sea rápida.
-
----
-
-### 📅 SEMANA 3: Pruebas y Documentación (12 horas)
-
-**Sesión 9: Batería de Pruebas**
-
-* **Sincronización:** Instalar el cliente de escritorio en Windows y verificar que los archivos se actualizan en tiempo real.
-* **Movilidad:** Acceder desde un móvil/tablet a la nube.
-* **Compartición:** Crear un enlace público con contraseña y fecha de caducidad (simulando envío a un cliente externo).
-
-**Sesión 10: Entregables**
-
-* **Manual de Usuario:** "Guía rápida para compartir archivos".
-* **Memoria Técnica:** Justificación del hardware, capturas de la instalación y configuración de seguridad.
+* Redactar la memoria técnica con capturas del proceso.
+* Crear un manual breve para uso diario del sistema.
+* Preparar una demostración real de compartición de archivos.
+* Ensayar la exposición final.
 
 ---
 
-### 📅 SEMANA 4: Defensa y Evaluación (8 horas)
-
-**Sesión 11-12: Presentación**
-
-* Demostración en vivo: Un alumno sube una foto desde su móvil y aparece instantáneamente en la pantalla del proyector (PC del profesor).
-* Justificación de costes: Comparativa de ahorro frente a licencias de Dropbox/Google Drive Business.
-
----
-
-## 3. 📊 Rúbrica de Evaluación del Proyecto
-
-Esta rúbrica está diseñada para evaluar tanto el resultado técnico como las competencias transversales.
+## 3. 📊 Rúbrica de Evaluación
 
 | Criterio | **10 (Avanzado)** | **7.5 (Intermedio)** | **5 (Básico)** | **0 (Necesita mejorar)** |
 | --- | --- | --- | --- | --- |
-| **Funcionalidad Técnica** | La nube funciona fluida, con HTTPS activo y permite subir archivos grandes (+2GB). Sincronización PC-Móvil perfecta. | La nube funciona y sincroniza, pero faltan ajustes de rendimiento (lenta) o no tiene HTTPS configurado. | La instalación básica funciona, pero falla la sincronización con clientes o da errores al subir archivos. | La instalación no finaliza o el servidor no es accesible desde la red. |
-| **Configuración de Red y Seguridad** | IP fija correcta, usuarios con permisos bien diferenciados (Admin/Usuario) y política de contraseñas robusta. | IP fija configurada. Usuarios creados pero con permisos genéricos o inseguros (todos admin). | Hay conectividad básica (ping), pero la configuración de usuarios es la que viene por defecto. | No hay conectividad entre cliente y servidor. No se han gestionado usuarios. |
-| **Documentación** | Memoria profesional con índice, capturas explicadas y manual de usuario personalizado con logo de la empresa ficticia. | Memoria completa con capturas, pero el manual de usuario es confuso o poco práctico. | Documentación escasa, faltan pasos importantes o capturas de pantalla de la configuración. | No se entrega documentación o es una copia directa de internet sin adaptar. |
-| **Defensa y Presentación** | Exposición clara, roles definidos, demostración en vivo exitosa y respuesta solvente a preguntas técnicas. | Exposición correcta, pero la demostración en vivo tiene fallos menores o dudas en las preguntas. | Se limitan a leer las diapositivas. La demostración no se realiza o falla completamente. | No hay presentación preparada o no se demuestra conocimiento de lo realizado. |
-| **Trabajo en Equipo** | Reparto equitativo de tareas visible. Todos los miembros dominan el proyecto globalmente. | Buena coordinación, pero se nota que un alumno ha cargado con la parte técnica más difícil. | Descoordinación evidente. Algún miembro desconoce partes del proyecto. | Conflictos no resueltos o trabajo individual sin integración. |
+| **Planificación** | El equipo organiza bien tareas, tiempos y objetivos desde el principio. | La planificación existe, aunque podría ser más clara. | La organización es básica y poco detallada. | No hay planificación visible. |
+| **Montaje y funcionamiento** | La nube funciona correctamente y permite compartir archivos sin problemas. | El sistema funciona con pequeños fallos. | Funciona solo una parte del proyecto. | El sistema no funciona. |
+| **Pruebas y uso real** | Se demuestra subida, descarga, compartición y copia de seguridad. | Se realizan pruebas básicas suficientes. | Las pruebas son escasas o poco claras. | No se prueban las funciones principales. |
+| **Documentación** | Memoria y manual claros, ordenados y fáciles de seguir. | Documentación correcta, aunque mejorable. | Documentación muy breve o incompleta. | No se entrega documentación. |
+| **Defensa** | Exposición clara, repartida entre todos y con buena demostración. | Presentación correcta con alguna duda menor. | Exposición poco preparada. | No se defiende bien el proyecto. |
 
 ---
 
 ## 4. 💡 Elementos Diferenciadores (Para nota extra)
 
-Si el equipo quiere asegurar el **10 (Avanzado)**, se sugiere implementar uno de los siguientes extras:
-
-1. **Integración Ofimática:** Instalar *Nextcloud Office* o *Collabora Online* para editar documentos tipo Word/Excel directamente en el navegador.
-2. **Backup Externo:** Configurar un script que haga una copia de seguridad automática de la base de datos a un segundo disco duro o unidad USB a una hora programada.
+1. Crear diferentes perfiles de usuario con permisos distintos.
+2. Diseñar una estructura de carpetas clara para el cliente ficticio.
+3. Mostrar una copia de seguridad básica o recuperación de un archivo.
 
 ---
 

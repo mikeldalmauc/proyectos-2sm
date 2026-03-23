@@ -1,8 +1,6 @@
-# 📂 PROYECTO INTERMODULAR: Infraestructura Web DevOps (Docker + GitHub CI/CD)
+# 📂 PROYECTO INTERMODULAR: Aula Virtual Corporativa (Moodle)
 
-![alt text](images/docker-wp.png)
-
-- [📂 PROYECTO INTERMODULAR: Infraestructura Web DevOps (Docker + GitHub CI/CD)](#-proyecto-intermodular-infraestructura-web-devops-docker--github-cicd)
+- [📂 PROYECTO INTERMODULAR: Aula Virtual Corporativa (Moodle)](#-proyecto-intermodular-aula-virtual-corporativa-moodle)
   - [1. 📋 Ficha Técnica del Proyecto](#1--ficha-técnica-del-proyecto)
   - [2. 🗓️ Cronograma Detallado (50 Horas)](#2-️-cronograma-detallado-50-horas)
     - [📅 SEMANA 1: Organización y análisis (10 horas)](#-semana-1-organización-y-análisis-10-horas)
@@ -17,13 +15,13 @@
 
 | Aspecto | Detalles |
 | --- | --- |
-| **Título** | Montaje de una web sencilla en contenedores con control básico de versiones |
+| **Título** | Implantación de un aula virtual para clases, tareas y comunicación |
 | **Duración** | 50 horas |
 | **Equipo** | 3 alumnos |
-| **Módulos integrados** | Aplicaciones Web, Sistemas Operativos, Seguridad |
-| **Software principal** | **Docker**, **GitHub**, **WordPress** |
-| **Hardware requerido** | 1 equipo servidor o máquina virtual y 1 equipo cliente |
-| **Cliente ficticio** | Agencia local que necesita una web fácil de montar y actualizar |
+| **Módulos integrados** | Sistemas Operativos, Servicios en Red, Aplicaciones Web |
+| **Software principal** | **Moodle** |
+| **Hardware requerido** | 1 servidor o máquina virtual y 2 equipos cliente |
+| **Cliente ficticio** | Academia o centro formativo que quiere organizar sus clases en línea |
 
 ---
 
@@ -31,30 +29,30 @@
 
 ### 📅 SEMANA 1: Organización y análisis (10 horas)
 
-* Explicar de forma sencilla qué es un contenedor y para qué sirve.
-* Repartir tareas: instalación, web y documentación.
-* Definir el contenido de la página web y el aspecto general.
-* Crear un repositorio con los archivos básicos del proyecto.
+* Analizar qué necesita el centro: cursos, usuarios, tareas y avisos.
+* Repartir tareas entre instalación, configuración y documentación.
+* Diseñar la estructura inicial del aula virtual.
+* Preparar el enfoque de la presentación final.
 
 ### 📅 SEMANA 2: Instalación y puesta en marcha (20 horas)
 
-* Instalar Docker y comprobar que funciona correctamente.
-* Levantar una web WordPress con una base de datos usando una configuración sencilla.
-* Personalizar la portada, los menús y varias páginas de contenido.
-* Guardar los archivos importantes del proyecto en GitHub.
+* Preparar el servidor con lo necesario para Moodle.
+* Instalar la plataforma y comprobar el acceso desde navegador.
+* Crear varios usuarios de prueba: administrador, profesor y alumno.
+* Crear al menos dos cursos con tareas o cuestionarios sencillos.
 
 ### 📅 SEMANA 3: Pruebas y mejoras (12 horas)
 
-* Realizar cambios pequeños en la web y comprobar que se ven correctamente.
-* Probar copias de seguridad simples de la base de datos o de los archivos principales.
-* Revisar permisos, contraseñas y acceso al panel de administración.
-* Preparar una explicación sencilla de cómo se actualiza el proyecto.
+* Probar el acceso con los distintos perfiles de usuario.
+* Comprobar que un alumno puede entregar una tarea y un profesor revisarla.
+* Realizar una copia de seguridad básica del aula o de uno de los cursos.
+* Mejorar la organización visual y revisar permisos y contraseñas.
 
 ### 📅 SEMANA 4: Documentación y defensa (8 horas)
 
-* Redactar la memoria técnica con capturas del montaje.
-* Crear un manual breve para arrancar la web y hacer cambios básicos.
-* Preparar una demostración del proyecto funcionando.
+* Redactar la memoria técnica con capturas del proyecto.
+* Crear un manual breve para usar el aula virtual.
+* Preparar una demostración del funcionamiento básico.
 * Ensayar la exposición final.
 
 ---
@@ -64,8 +62,8 @@
 | Criterio | **10 (Avanzado)** | **7.5 (Intermedio)** | **5 (Básico)** | **0 (Necesita mejorar)** |
 | --- | --- | --- | --- | --- |
 | **Planificación** | El equipo organiza bien tareas, tiempos y objetivos desde el principio. | La planificación existe, aunque podría ser más clara. | La organización es básica y poco detallada. | No hay planificación visible. |
-| **Montaje y funcionamiento** | La web en contenedores funciona correctamente y se puede acceder sin problemas. | El sistema funciona con pequeños fallos. | Funciona solo una parte del proyecto. | El sistema no funciona. |
-| **Pruebas y uso real** | Se demuestra un flujo completo de trabajo y actualización de la web. | Se realizan pruebas básicas suficientes. | Las pruebas son escasas o poco claras. | No se prueban las funciones principales. |
+| **Montaje y funcionamiento** | El aula virtual funciona correctamente con cursos y usuarios operativos. | El sistema funciona con pequeños fallos. | Funciona solo una parte del proyecto. | El sistema no funciona. |
+| **Pruebas y uso real** | Se demuestra acceso, entrega de tareas y copia de seguridad básica. | Se realizan pruebas básicas suficientes. | Las pruebas son escasas o poco claras. | No se prueban las funciones principales. |
 | **Documentación** | Memoria y manual claros, ordenados y fáciles de seguir. | Documentación correcta, aunque mejorable. | Documentación muy breve o incompleta. | No se entrega documentación. |
 | **Defensa** | Exposición clara, repartida entre todos y con buena demostración. | Presentación correcta con alguna duda menor. | Exposición poco preparada. | No se defiende bien el proyecto. |
 
@@ -73,9 +71,9 @@
 
 ## 4. 💡 Elementos Diferenciadores (Para nota extra)
 
-1. Añadir una segunda página o sección con contenido propio.
-2. Preparar una copia de seguridad sencilla antes de hacer cambios.
-3. Explicar con un esquema visual cómo se relacionan la web y la base de datos.
+1. Añadir más actividades, como foros o cuestionarios sencillos.
+2. Personalizar la plataforma con imagen y colores propios.
+3. Mostrar una copia de seguridad o restauración de un curso de prueba.
 
 ---
 
